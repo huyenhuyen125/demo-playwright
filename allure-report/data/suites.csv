@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","353","Verify kiotviet page","chromium","Mon Oct 06 02:40:42 ICT 2025","passed","Mon Oct 06 02:40:43 ICT 2025","register Tests","tests\Register.spec.js","",""
+"","5196","verify items on the register screen","chromium","Mon Oct 06 02:46:31 ICT 2025","passed","Mon Oct 06 02:46:36 ICT 2025","register Tests","tests\Register.spec.js","",""
