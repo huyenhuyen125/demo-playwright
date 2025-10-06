@@ -1,23 +1,31 @@
 import { defineConfig } from '@playwright/test';
 
 export default defineConfig({
-  timeout: 60000, 
+  timeout: 120000, 
+   expect: {
+    timeout: 10000,
+  },
   use: {
     headless: true,
     screenshot: 'only-on-failure',
-    video: 'retain-on-failure', // Chạy test ở chế độ không hiển thị trình duyệt
+    video: 'retain-on-failure', 
+    viewport: null,
+    
     launchOptions: {
-      args: ['--start-maximized'], // Chỉ có tác dụng với Chromium
+      args: [    
+        '--no-sandbox',
+        '--disable-setuid-sandbox',
+        '--disable-dev-shm-usage',
+        '--disable-gpu',
+        '--ignore-certificate-errors',
+        '--start-maximized',
+      ], 
     },
-    viewport: null // Giữ kích thước gốc của trình duyệt
-    // viewport: { width: 1920, height: 1080  },
-    //   launchOptions: {
-    //     slowMo: 500 // Làm chậm thao tác để dễ quan sát (500ms mỗi thao tác)
-    // }
+
   },
   reporter: [
     ['list'],
-    ['allure-playwright', { outputFolder: 'allure-results' }], // bắt buộc
+    ['allure-playwright', { outputFolder: 'allure-results' }], 
     ['html', { outputFolder: 'playwright-report', open: 'never' }]
   ],
   projects: [
