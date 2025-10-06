@@ -14,7 +14,15 @@ test.describe('register Tests', () => {
     let page;
 
     test.beforeAll(async () => {
-        browser = await chromium.launch({ headless: true });
+        browser = await chromium.launch({
+            headless: true,
+            args: [
+                '--no-sandbox',
+                '--disable-setuid-sandbox',
+                '--disable-dev-shm-usage',
+                '--disable-gpu'
+            ]
+        });
         context = await browser.newContext();
         page = await context.newPage();
 
@@ -36,8 +44,8 @@ test.describe('register Tests', () => {
     test('verify items on the register screen', async () => {
         logger.info('verify items on the register screen');
         await expect(registerPage.getTextTitle()).resolves.toContain(DataTest.registerPage.textTitle);
-            await registerPage.verifyTextboxFullnameEnable();
-            await registerPage.verifyTextboxPhoneEnable();
+        await registerPage.verifyTextboxFullnameEnable();
+        await registerPage.verifyTextboxPhoneEnable();
 
 
     });
@@ -62,7 +70,7 @@ test.describe('register Tests', () => {
         await registerPage.clicktoButtonRegisterForm();
 
         logger.info('go to created Store Page');
-  
+
     });
 
     test('Check registration failed', async () => {
