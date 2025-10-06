@@ -22,9 +22,16 @@ jobs:
         run: npm ci
 
       - name: Install Playwright browsers
-        run: npx playwright install
+        run: npx playwright install --with-deps
 
-      - name: Run tests
+      - name: Check website accessibility from CI
+        run: |
+          echo ">>> Checking if KiotViet is accessible from GitHub Action"
+          curl -I https://www.kiotviet.vn || true
+          echo ">>> Your CI public IP is:"
+          curl ifconfig.me || true
+
+      - name: Run Playwright tests
         run: npx playwright test --reporter=html
 
       - name: Upload Playwright HTML report
