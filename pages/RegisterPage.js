@@ -1,33 +1,18 @@
 import logger from '../utils/logger.js';
-export class RegisterPage {
+import { BasePage } from './BasePage.js';
+export class RegisterPage extends BasePage {
     constructor(page) {
+        super(page);
         this.page = page;
 
         this.btnRegister = page.locator("//li[@class='nav-item header-login login']");
-
-
-        this.registerTab = null;
-        this.textTitle = null;
-        this.inputFullname = null;
-        this.inputPhone = null;
-        this.inputEmail = null;
-        this.btnSubmit = null;
-        this.selectCountry = null;
-        this.selectArea = null;
-        this.dropdownOptionXPath = null;
-        this.checkbox = null;
-        this.selectTelephoneCountry = null;
-        this.errorMessage = null;
-        this.errorMessagePhone = null;
-        this.captcha = null;
     }
 
     async openRegisterTab() {
         const [newPage] = await Promise.all([
             this.page.waitForEvent('popup'),
-            this.btnRegister.click()
+            this.clickToElement(this.btnRegister)
         ]);
-
         this.registerTab = newPage;
         await this.registerTab.waitForLoadState();
 
@@ -47,59 +32,44 @@ export class RegisterPage {
     }
 
 
-    // async selectToDropdownTelephoneCountry(telephoneCountry) {
-    //       await this.selectTelephoneCountry.click();
-    //     const optionLocator = this.registerTab.locator(this.selectTelephoneCountryName);
-    //     await optionLocator.waitFor({ state: 'visible' });
-    //     await optionLocator.click();
-
-
-
-    // }
-
     async getTextTitle() {
-        await this.textTitle.waitFor({ state: 'visible' });
-        return await this.textTitle.textContent();
+        return await this.getText(this.textTitle);
     }
+
+    async getErrorMessage(locator) {
+        return await this.getText(locator);
+    }
+
     async verifyTextboxFullnameEnable() {
-        await this.inputFullname.isEnabled();
+        return await this.isEnabled(this.inputFullname);
     }
+
     async verifyTextboxPhoneEnable() {
-        await this.inputPhone.isEnabled();
+        return await this.isEnabled(this.inputPhone);
     }
 
     async inputToTextboxFullname(name) {
-        await this.inputFullname.fill(name);
+        await this.inputToTextbox(this.inputFullname, name);
     }
-
 
     async inputToCaptcha(captcha) {
-        await this.captcha.fill(captcha);
+        await this.inputToTextbox(this.captcha, captcha);
     }
 
-
     async inputToTextboxPhone(phone) {
-        await this.inputPhone.fill(phone);
+        await this.inputToTextbox(this.inputPhone, phone);
     }
 
     async clicktoButtonRegisterForm() {
-        await this.btnRegisterForm.click();
+        await this.clickToElement(this.btnRegisterForm);
     }
-
-    async waitForTimeout(time) {
-        await this.registerTab.waitForTimeout(time);
-    }
-
-
 
     async selectToDropdownCountry(countryName) {
-        await this.selectDropdown(this.selectCountry, countryName);
-
+        await this.selectDropdownNewPage(this.selectCountry, countryName);
     }
 
     async selectToDropdownArea(areaName) {
-        await this.selectDropdown(this.selectArea, areaName);
-
+         await this.selectDropdownNewPage(this.selectArea,areaName);
     }
 
     async checkboxIsCheck() {
@@ -107,27 +77,23 @@ export class RegisterPage {
         if (!status) {
             await this.checkbox.check({ force: true });
             logger.debug('checkbox Is Check');
-
         }
-
     }
+    
     async checkboxNotCheck() {
         const status = await this.checkStatusCheckbox();
         if (status) {
             await this.checkbox.check({ force: true });
             logger.debug('checkbox Not Check');
         }
-
     }
 
     async checkStatusCheckbox() {
         const isChecked = await this.checkbox.isChecked();
         return isChecked;
-
     }
 
-
-    async selectDropdown(dropdownLocator, optionText) {
+    async selectDropdownNewPage(dropdownLocator, optionText) {
         await dropdownLocator.click();
         const dynamicXPath = this.dropdownOptionXPath.replace('{{optionText}}', optionText);
         const optionLocator = this.registerTab.locator(dynamicXPath);
@@ -136,10 +102,7 @@ export class RegisterPage {
     }
 
 
-    async getErrorMessage(locator) {
-        await locator.waitFor({ state: 'visible' });
-        return await locator.textContent();
-    }
+
 
 
 

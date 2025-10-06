@@ -1,6 +1,6 @@
 import { test as base, expect } from '@playwright/test';
 import logger from './logger.js';
-import { allure } from 'allure-playwright'; // ❌ Không export ra nữa
+import { allure } from 'allure-playwright'; 
 
 export const test = base.extend({
   page: async ({ page }, use, testInfo) => {
@@ -10,13 +10,12 @@ export const test = base.extend({
       const fileName = testInfo.title.replace(/\s+/g, '_') + '.png';
       const path = `screenshots/${fileName}`;
       await page.screenshot({ path, fullPage: true });
-      logger.error(`❌ Test failed: ${testInfo.title}`);
-      // Thêm ảnh vào allure trực tiếp
+      logger.error('Test failed: ${testInfo.title}');
       allure.attachment('Screenshot', path, 'image/png');
     } else {
-      logger.info(`✅ Test passed: ${testInfo.title}`);
+      logger.info('Test passed: ${testInfo.title}');
     }
   },
 });
 
-export { expect }; // chỉ export expect
+export { expect }; 

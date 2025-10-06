@@ -1,8 +1,11 @@
 import { defineConfig } from '@playwright/test';
 
 export default defineConfig({
+  timeout: 60000, 
   use: {
-    headless: false,  // Chạy test ở chế độ không hiển thị trình duyệt
+    headless: true,
+    screenshot: 'only-on-failure',
+    video: 'retain-on-failure', // Chạy test ở chế độ không hiển thị trình duyệt
     launchOptions: {
       args: ['--start-maximized'], // Chỉ có tác dụng với Chromium
     },

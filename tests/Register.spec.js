@@ -5,18 +5,16 @@ import logger from '../utils/logger.js';
 import { DataTest } from '../data/DataTest.js';
 import { RegisterPage } from '../pages/RegisterPage.js';
 import { HomePage } from '../pages/Homepage.js';
-import { CreatedStorePage } from '../pages/CreatedStorePage.js';
 
 test.describe('register Tests', () => {
     let homePage;
-    let createdStorePage;
     let registerPage;
     let browser;
     let context;
     let page;
 
     test.beforeAll(async () => {
-        browser = await chromium.launch({ headless: false });
+        browser = await chromium.launch({ headless: true });
         context = await browser.newContext();
         page = await context.newPage();
 
@@ -25,14 +23,6 @@ test.describe('register Tests', () => {
 
         await homePage.goToHomePage(DataTest.url.Home);
         await registerPage.openRegisterTab();
-    });
-
-    test.afterAll(async () => {
-
-    });
-
-    test.beforeEach(async () => {
-
     });
 
 
@@ -52,64 +42,54 @@ test.describe('register Tests', () => {
 
     });
 
-    // test('Register successful', async () => {
-    //     logger.info('input to textbox');
-    //     await registerPage.inputToTextboxFullname("NGUYEN THI HUYEN");
-    //     // await registerPage.selectToDropdownTelephoneCountry("Laos");
-    //     await registerPage.inputToTextboxPhone("0397706493");
+    test('Register successful', async () => {
+        logger.info('input to textbox');
+        await registerPage.inputToTextboxFullname(DataTest.inputUser.name);
+        await registerPage.inputToTextboxPhone(DataTest.inputUser.phone);
 
-    //     logger.info('select ToDropdown');
-    //     await registerPage.selectToDropdownCountry("Laos");
-    //     await registerPage.selectToDropdownArea("Bokeo");
+        logger.info('select ToDropdown');
+        await registerPage.selectToDropdownCountry(DataTest.inputUser.country);
+        await registerPage.selectToDropdownArea(DataTest.inputUser.area);
 
-    //     logger.info('check to checkbox');
-    //     await registerPage.checkboxIsCheck();
-    //     await registerPage.checkboxNotCheck();
+        logger.info('check to checkbox');
+        await registerPage.checkboxIsCheck();
+        await registerPage.checkboxNotCheck();
 
-    //     logger.info('skip capcha = manual');
-    //     await registerPage.waitForTimeout(5000);
+        logger.info('skip capcha = manual');
+        await registerPage.waitForTimeout(5000);
 
-    //     logger.info('click button submit');
-    //     await registerPage.clicktoButtonRegisterForm();
+        logger.info('click button submit');
+        await registerPage.clicktoButtonRegisterForm();
 
-    //     logger.info('go to created Store Page');
+        logger.info('go to created Store Page');
+  
+    });
 
-    //     createdStorePage = new CreatedStorePage(page);
+    test('Check registration failed', async () => {
 
-    //     await registerPage.waitForTimeout(15000);
-    //     logger.info('click to Drop Choose Industry ');
-    //     await page.pause();
-    //     await createdStorePage.clickToDropChooseIndustry();
+        logger.info('not input data and click button submit ');
+        await registerPage.clicktoButtonRegisterForm();
+        await expect(registerPage.getErrorMessage(registerPage.errorMessage)).resolves.toContain(DataTest.errorMessage.notInputData);
 
-    //     await expect(createdStorePage.gettextTitleIndustry()).resolves.toContain("Hãy chọn ngành hàng kinh doanh của bạn");
-    //     await page.pause();
-    // });
+        logger.info('Invalid phone number entered');
+        await registerPage.registerTab.reload();
+        await registerPage.inputToTextboxPhone(DataTest.inputUser.incorrectPhone);
+        await registerPage.clicktoButtonRegisterForm();
+        await expect(registerPage.getErrorMessage(registerPage.errorMessagePhone)).resolves.toContain(DataTest.errorMessage.invalidPhone);
 
-    // test('Check registration failed', async () => {
-
-    //     logger.info('not input data and click button submit ');
-    //     await registerPage.clicktoButtonRegisterForm();
-    //     await expect(registerPage.getErrorMessage(registerPage.errorMessage)).resolves.toContain(" Vui lòng nhập đầy đủ thông tin");
-
-    //     logger.info('Invalid phone number entered');
-    //     await registerPage.registerTab.reload();
-    //     await registerPage.inputToTextboxPhone("123");
-    //     await registerPage.clicktoButtonRegisterForm();
-    //     await expect(registerPage.getErrorMessage(registerPage.errorMessagePhone)).resolves.toContain("Số điện thoại không đúng định dạng");
-
-    //     logger.info('incorrect captcha entry');
-    //     await registerPage.registerTab.reload();
-    //     await registerPage.inputToTextboxFullname("NGUYEN THI HUYEN");
-    //     await registerPage.inputToTextboxPhone("0397706493");
-    //     await registerPage.selectToDropdownCountry("Laos");
-    //     await registerPage.selectToDropdownArea("Bokeo");
-    //     await registerPage.checkboxIsCheck();
-    //     await registerPage.inputToCaptcha("123");
-    //     await registerPage.clicktoButtonRegisterForm();
-    //     await expect(registerPage.getErrorMessage(registerPage.errorMessage)).resolves.toContain(" Mã xác thực chưa chính xác");
+        logger.info('incorrect captcha entry');
+        await registerPage.registerTab.reload();
+        await registerPage.inputToTextboxFullname(DataTest.inputUser.name);
+        await registerPage.inputToTextboxPhone(DataTest.inputUser.phone);
+        await registerPage.selectToDropdownCountry(DataTest.inputUser.country);
+        await registerPage.selectToDropdownArea(DataTest.inputUser.area);
+        await registerPage.checkboxIsCheck();
+        await registerPage.inputToCaptcha(DataTest.inputUser.incorrectCaptcha);
+        await registerPage.clicktoButtonRegisterForm();
+        await expect(registerPage.getErrorMessage(registerPage.errorMessage)).resolves.toContain(DataTest.errorMessage.incorrectCaptcha);
 
 
-    // });
+    });
 
 
 });

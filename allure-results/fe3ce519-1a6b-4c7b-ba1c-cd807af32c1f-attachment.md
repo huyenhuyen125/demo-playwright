@@ -1,0 +1,859 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e6]:
+      - generic [ref=e7]:
+        - link "Phần mềm quản lý bán hàng KiotViet" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - heading "Phần mềm quản lý bán hàng KiotViet" [level=2] [ref=e9] [cursor=pointer]:
+            - img "Phần mềm quản lý bán hàng KiotViet" [ref=e10] [cursor=pointer]
+        - list [ref=e13]:
+          - listitem [ref=e14] [cursor=pointer]:
+            - generic [ref=e16] [cursor=pointer]: Sản phẩm
+          - listitem [ref=e17] [cursor=pointer]:
+            - generic [ref=e19] [cursor=pointer]: Giải pháp
+          - listitem [ref=e20] [cursor=pointer]:
+            - generic [ref=e22] [cursor=pointer]: Khách hàng
+          - listitem [ref=e23] [cursor=pointer]:
+            - generic [ref=e24] [cursor=pointer]: Phí dịch vụ
+          - listitem [ref=e25] [cursor=pointer]:
+            - generic [ref=e26] [cursor=pointer]: Hỗ trợ
+          - listitem [ref=e27] [cursor=pointer]:
+            - generic [ref=e29] [cursor=pointer]: Tin tức
+          - listitem [ref=e30] [cursor=pointer]:
+            - link "Về KiotViet" [ref=e31] [cursor=pointer]:
+              - /url: https://www.kiotviet.vn/ve-ki-ot-viet/
+          - listitem [ref=e32]:
+            - list [ref=e34]:
+              - listitem [ref=e35] [cursor=pointer]:
+                - button "Đăng nhập" [ref=e36] [cursor=pointer]
+              - listitem [ref=e37] [cursor=pointer]:
+                - button "Đăng ký" [active] [ref=e38] [cursor=pointer]
+    - generic [ref=e39]:
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - generic [ref=e44]:
+            - heading "Phần mềm quản lý bán hàng phổ biến nhất" [level=1]
+            - heading "Phần mềm quản lý bán hàng phổ biến nhất" [level=2] [ref=e45]:
+              - text: Phần mềm
+              - text: quản lý bán hàng
+              - text: phổ biến nhất
+          - generic [ref=e46]:
+            - generic [ref=e47]:
+              - button "Dùng thử miễn phí" [ref=e48] [cursor=pointer]
+              - button "Khám phá" [ref=e49] [cursor=pointer]:
+                - generic [ref=e50] [cursor=pointer]: Khám phá
+            - generic [ref=e53]:
+              - generic [ref=e56]:
+                - generic [ref=e57]: 300.000+
+                - generic [ref=e58]: nhà kinh doanh sử dụng
+              - generic [ref=e61]:
+                - generic [ref=e62]: 10.000+
+                - generic [ref=e63]: nhà kinh doanh mới mỗi tháng
+          - generic [ref=e64] [cursor=pointer]:
+            - generic [ref=e65] [cursor=pointer]:
+              - img [ref=e67] [cursor=pointer]
+              - generic [ref=e68] [cursor=pointer]: Mới
+            - generic [ref=e69] [cursor=pointer]: Phiên bản dành riêng cho Kiều Bào Việt tại nước ngoài
+            - img [ref=e71] [cursor=pointer]
+        - generic [ref=e72]:
+          - link "logo-kiotviet Phần mềm quản lý bán hàng" [ref=e74] [cursor=pointer]:
+            - /url: https://www.kiotviet.vn
+            - img "logo-kiotviet" [ref=e76] [cursor=pointer]
+            - generic [ref=e77] [cursor=pointer]: Phần mềm quản lý bán hàng
+          - link "logo-kvfinance Giải pháp thanh toán và vay vốn" [ref=e79] [cursor=pointer]:
+            - /url: https://finance.kiotviet.vn/#vay-von-kinh-doanh
+            - img "logo-kvfinance" [ref=e81] [cursor=pointer]
+            - generic [ref=e82] [cursor=pointer]: Giải pháp thanh toán và vay vốn
+          - link "Mới logo-kvconnect Miễn phí Hóa đơn điện tử và Chữ ký số" [ref=e84] [cursor=pointer]:
+            - /url: https://hoadondientu.kiotviet.vn/
+            - generic [ref=e85] [cursor=pointer]:
+              - text: Mới
+              - img "logo-kvconnect" [ref=e86] [cursor=pointer]
+            - generic [ref=e87] [cursor=pointer]: Miễn phí Hóa đơn điện tử và Chữ ký số
+      - generic [ref=e88]:
+        - generic [ref=e90]:
+          - heading "KiotViet giúp bạn quản lý dễ dàng, bán hàng hiệu quả" [level=3] [ref=e92]
+          - generic [ref=e93]:
+            - generic [ref=e95]:
+              - img "Đơn giản & Dễ sử dụng" [ref=e96]
+              - heading "Đơn giản & Dễ sử dụng" [level=4] [ref=e97]
+              - heading "Giao diện đơn giản, thân thiện và thông minh. Chỉ mất 15 phút làm quen." [level=4] [ref=e98]
+            - generic [ref=e100]:
+              - img "Tiết kiệm chi phí" [ref=e101]
+              - heading "Tiết kiệm chi phí" [level=4] [ref=e102]
+              - heading "Miễn phí cài đặt, triển khai, nâng cấp và hỗ trợ. Rẻ hơn một ly trà đá." [level=4] [ref=e103]
+            - generic [ref=e105]:
+              - img "Phù hợp cho từng ngành hàng" [ref=e106]
+              - heading "Phù hợp cho từng ngành hàng" [level=4] [ref=e107]
+              - heading "Phần mềm quản lý bán hàng phù hợp cho hơn 20 ngành nghề kinh doanh khác nhau." [level=4] [ref=e108]
+        - generic [ref=e110]:
+          - heading "Chúng tôi thiết kế phần mềm quản lý bán hàng chuyên biệt cho từng ngành hàng" [level=3] [ref=e112]:
+            - text: Chúng tôi thiết kế phần mềm quản lý bán hàng
+            - generic [ref=e113]: chuyên biệt cho từng ngành hàng
+          - generic [ref=e114]:
+            - generic [ref=e115]:
+              - generic [ref=e116]:
+                - img "retail-logo-icon" [ref=e118]
+                - generic [ref=e119]: Bán buôn, bán lẻ
+              - generic [ref=e120]:
+                - generic [ref=e121]: Thời trang
+                - generic [ref=e124]: Tạp hóa & Siêu thị
+                - generic [ref=e127]: Điện thoại & Điện máy
+                - generic [ref=e130]: Mỹ phẩm
+                - generic [ref=e133]: Vật liệu xây dựng
+                - generic [ref=e136]: Nông sản & Thực phẩm
+                - generic [ref=e139]: Nhà thuốc
+                - generic [ref=e142]: Xe, Máy móc
+                - generic [ref=e145]: Mẹ & Bé
+                - generic [ref=e148]: Nội thất & Gia dụng
+                - generic [ref=e151]: Sách & Văn phòng phẩm
+                - generic [ref=e154]: Hoa & Quà tặng
+                - generic [ref=e157]: Sản xuất
+                - generic [ref=e160]: Khác
+            - generic [ref=e163]:
+              - generic [ref=e164]:
+                - generic [ref=e165]:
+                  - img "fnb-logo-icon" [ref=e167]
+                  - generic [ref=e168]: Ăn uống, giải trí
+                - generic [ref=e169]:
+                  - generic [ref=e170]: Nhà hàng
+                  - generic [ref=e173]: Quán ăn
+                  - generic [ref=e176]: Cafe, Trà sữa
+                  - generic [ref=e179]: Karaoke, Bida
+                  - generic [ref=e182]: Bar, Pub & Club
+                  - generic [ref=e185]: Căng tin & Trạm dừng nghỉ
+              - generic [ref=e188]:
+                - generic [ref=e189]:
+                  - img "beauty-logo-icon" [ref=e191]
+                  - generic [ref=e192]: Lưu trú, làm đẹp
+                - generic [ref=e193]:
+                  - generic [ref=e194]: Beauty Spa & Massage
+                  - generic [ref=e197]: Hair Salon & Nails
+                  - generic [ref=e200]: Khách sạn & Nhà nghỉ
+                  - generic [ref=e203]: Homestay & Villa, Resort
+                  - generic [ref=e206]: Fitness & Yoga
+                  - generic [ref=e209]: Phòng khám
+          - generic [ref=e213]:
+            - heading "7 ngày dùng thử miễn phí" [level=4] [ref=e214]
+            - button "Đăng ký ngay" [ref=e215] [cursor=pointer]
+        - generic [ref=e217]:
+          - heading "KiotViet - Giải pháp kinh doanh toàn diện" [level=3] [ref=e219]:
+            - generic [ref=e220]: KiotViet
+            - text: "- Giải pháp kinh doanh toàn diện"
+          - generic [ref=e221]:
+            - generic [ref=e223]:
+              - img "solution-item-image" [ref=e225]
+              - heading "Phần mềm quản lý bán hàng phổ biến nhất với 20+ ngành hàng" [level=4] [ref=e226]
+              - list [ref=e227]:
+                - listitem [ref=e228]:
+                  - generic [ref=e231]: Đơn giản quản lý hàng hóa, nhân sự
+              - list [ref=e232]:
+                - listitem [ref=e233]:
+                  - generic [ref=e236]: Dễ dàng truy cập báo cáo, theo dõi tăng trưởng doanh thu
+              - list [ref=e237]:
+                - listitem [ref=e238]:
+                  - generic [ref=e241]: Tối ưu quản lý bán hàng đa kênh
+              - list [ref=e242]:
+                - listitem [ref=e243]:
+                  - generic [ref=e246]: Nâng cao chất lượng vận hành
+              - link "Xem phí dịch vụ" [ref=e247] [cursor=pointer]:
+                - /url: "https://www.kiotviet.vn/phi-dich-vu/ "
+            - generic [ref=e249]:
+              - img "solution-item-image" [ref=e251]
+              - heading "Sàn kết nối nguồn hàng giá tốt dành cho nhà bán hàng" [level=4] [ref=e252]
+              - list [ref=e253]:
+                - listitem [ref=e254]:
+                  - generic [ref=e257]: 40.000+ mặt hàng đa dạng
+              - list [ref=e258]:
+                - listitem [ref=e259]:
+                  - generic [ref=e262]: Nguồn hàng giá tốt từ 1.000+ nhà bán sỉ trên toàn quốc
+              - list [ref=e263]:
+                - listitem [ref=e264]:
+                  - generic [ref=e267]: Có ngay khách hàng tiềm năng khi lên sàn giúp tăng trưởng doanh số
+              - link "Tìm hiểu thêm" [ref=e268] [cursor=pointer]:
+                - /url: https://connect.kiotviet.vn
+            - generic [ref=e270]:
+              - img "solution-item-image" [ref=e272]
+              - heading "Giải pháp thanh toán - Vay vốn uy tín dành cho chủ shop" [level=4] [ref=e273]
+              - list [ref=e274]:
+                - listitem [ref=e275]:
+                  - generic [ref=e278]: Tích hợp thanh toán QR
+              - list [ref=e279]:
+                - listitem [ref=e280]:
+                  - generic [ref=e283]: Hỗ trợ vay vốn từ các đối tác tài chính uy tín (KBank, Easy Credit...)
+              - link "Liên hệ tư vấn" [ref=e284] [cursor=pointer]:
+                - /url: https://finance.kiotviet.vn/#vay-von-kinh-doanh
+        - generic [ref=e286]:
+          - generic [ref=e287]: Quy trình phát triển phần mềm nghiêm ngặt đảm bảo an toàn dữ liệu khách hàng
+          - generic [ref=e289]: Có đội ngũ chuyên gia kiểm soát chặt chẽ các vấn đề liên quan đến an toàn thông tin. Các thông tin định danh được mã hóa bảo mật nhiều lớp nhằm bảo vệ dữ liệu của khách hàng, hạn chế tối đa rủi ro lộ thông tin.
+          - generic [ref=e290]:
+            - img "iso27001" [ref=e291]
+            - img "pcidss" [ref=e292]
+        - generic [ref=e294]:
+          - heading "Giải pháp Bán hàng online hiệu quả" [level=3] [ref=e296]:
+            - generic [ref=e297]: Giải pháp
+            - text: Bán hàng online hiệu quả
+          - generic [ref=e298]:
+            - generic [ref=e301]:
+              - paragraph [ref=e303]:
+                - img "Đồng bộ với các sàn thương mại điện tử" [ref=e304]
+              - generic [ref=e306]:
+                - heading "Đồng bộ với các sàn thương mại điện tử" [level=4] [ref=e307]
+                - paragraph [ref=e308]: Phần mềm KiotViet đem đến giải pháp bán hàng dễ dàng & hiệu quả trên các sàn TMĐT phổ biến nhất hiện nay như Tiki, Shopee, Lazada, TikTok Shop, Sendo... Quản lý tập trung nhiều gian hàng trên một giao diện, tự động đồng bộ tồn kho - giá bán, tiết kiệm thời gian, đơn đi bạt ngàn.
+                - link "Xem chi tiết" [ref=e309] [cursor=pointer]:
+                  - /url: https://www.kiotviet.vn/giai-phap-ban-hang-tren-san-tmdt/
+                  - text: Xem chi tiết
+            - generic [ref=e314]:
+              - paragraph [ref=e316]:
+                - img "Có ngay một website cho riêng cửa hàng của bạn chỉ với 1 lần chạm" [ref=e317]
+              - generic [ref=e319]:
+                - heading "Có ngay một website cho riêng cửa hàng của bạn chỉ với 1 lần chạm" [level=4] [ref=e320]
+                - paragraph [ref=e321]: Bạn có thể tạo ra một website cho riêng cửa hàng của bạn với giao diện đa dạng và phù hợp với nhiều ngành hàng. Phần mềm KiotViet giúp nhà kinh doanh quản lý bán hàng online dễ dàng, đơn giản và không chịu chi phí hoa hồng.
+                - link "Xem chi tiết" [ref=e322] [cursor=pointer]:
+                  - /url: https://web.kiotviet.vn/
+                  - text: Xem chi tiết
+            - generic [ref=e327]:
+              - paragraph [ref=e329]:
+                - img "Liên kết quản lý bán hàng trên Facebook" [ref=e330]
+              - generic [ref=e332]:
+                - heading "Liên kết quản lý bán hàng trên Facebook" [level=4] [ref=e333]
+                - paragraph [ref=e334]: KiotViet cung cấp giải pháp quản lý & bán hàng trên Fanpage Facebook tiện lợi và nhanh chóng, đáp ứng đầy đủ nhu cầu của hàng triệu chủ shop kinh doanh online thuộc tất cả mọi ngành hàng.
+                - link "Xem chi tiết" [ref=e335] [cursor=pointer]:
+                  - /url: https://www.kiotviet.vn/facebook-pos-lp/
+                  - text: Xem chi tiết
+            - generic [ref=e340]:
+              - paragraph [ref=e342]:
+                - img "Giải pháp giao hàng dễ dàng" [ref=e343]
+              - generic [ref=e345]:
+                - heading "Giải pháp giao hàng dễ dàng" [level=4] [ref=e346]
+                - paragraph [ref=e347]: Tích hợp với hầu hết các hãng vận chuyển trên thị trường như Giaohangnhanh, ViettelPost, VNPT Post, J&T…Phần mềm KiotViet mang lại cho khách hàng một dịch vụ thuận tiện với chi phí vô cùng tiết kiệm cùng nhiều chính sách ưu đãi của các hãng vận chuyển, gia tăng hiệu quả quản lý bán hàng.
+                - link "Xem chi tiết" [ref=e348] [cursor=pointer]:
+                  - /url: https://www.kiotviet.vn/giai-phap-giao-hang-ngay-tren-kiotviet/
+                  - text: Xem chi tiết
+        - generic [ref=e352]:
+          - heading "Khách hàng của chúng tôi" [level=3] [ref=e354]
+          - generic [ref=e355]:
+            - generic [ref=e357]:
+              - link "customer-form-image" [ref=e358] [cursor=pointer]:
+                - /url: 3-gai-quan-thanh-cong-den-tu-3-yeu-to-gan-gui-la-lam-tinh-te
+                - img "customer-form-image" [ref=e359] [cursor=pointer]
+              - generic [ref=e360]:
+                - heading "3 Gai quán - Thành công đến từ 3 yếu tố" [level=4] [ref=e361] [cursor=pointer]:
+                  - link "3 Gai quán - Thành công đến từ 3 yếu tố" [ref=e362] [cursor=pointer]:
+                    - /url: /3-gai-quan-thanh-cong-den-tu-3-yeu-to-gan-gui-la-lam-tinh-te
+                - paragraph [ref=e363]: C02, 518 Võ Văn Kiệt, P. Cầu Kho, Quận 1, Thành phố Hồ Chí Minh
+            - generic [ref=e365]:
+              - link "customer-form-image" [ref=e366] [cursor=pointer]:
+                - /url: co-sinh-vien-20-tuoi-mo-salon-lam-dep-rieng-don-30-40-luot-khach-moi-ngay
+                - img "customer-form-image" [ref=e367] [cursor=pointer]
+              - generic [ref=e368]:
+                - heading "Cô sinh viên 20 tuổi mở salon làm đẹp riêng, đón 30-40 lượt khách mỗi ngày" [level=4] [ref=e369] [cursor=pointer]:
+                  - link "Cô sinh viên 20 tuổi mở salon làm đẹp riêng, đón 30-40 lượt khách mỗi ngày" [ref=e370] [cursor=pointer]:
+                    - /url: /co-sinh-vien-20-tuoi-mo-salon-lam-dep-rieng-don-30-40-luot-khach-moi-ngay
+                - paragraph [ref=e371]: Gian hàng R14, Khu trung tâm thương mại Huyndai, Phường Hà Cầu, Hà Đông, Hà Nội
+            - generic [ref=e373]:
+              - link "customer-form-image" [ref=e374] [cursor=pointer]:
+                - /url: thoi-trang-chivaro-dang-cap-cho-mot-chang-trai-lich-lam
+                - img "customer-form-image" [ref=e375] [cursor=pointer]
+              - generic [ref=e376]:
+                - heading "THỜI TRANG CHIVARO – Đẳng cấp cho một chàng trai lịch lãm" [level=4] [ref=e377] [cursor=pointer]:
+                  - link "THỜI TRANG CHIVARO – Đẳng cấp cho một chàng trai lịch lãm" [ref=e378] [cursor=pointer]:
+                    - /url: /thoi-trang-chivaro-dang-cap-cho-mot-chang-trai-lich-lam
+                - paragraph [ref=e379]: 19 Tây Sơn, Đống Đa, Hà Nội
+            - generic [ref=e381]:
+              - link "customer-form-image" [ref=e382] [cursor=pointer]:
+                - /url: ba-minh-silk-va-su-menh-phat-trien-san-pham-lua-to-tam-viet
+                - img "customer-form-image" [ref=e383] [cursor=pointer]
+              - generic [ref=e384]:
+                - heading "Bá Minh Silk và sứ mệnh làm mới sản phẩm lụa tơ tằm truyền thống" [level=4] [ref=e385] [cursor=pointer]:
+                  - link "Bá Minh Silk và sứ mệnh làm mới sản phẩm lụa tơ tằm truyền thống" [ref=e386] [cursor=pointer]:
+                    - /url: /ba-minh-silk-va-su-menh-phat-trien-san-pham-lua-to-tam-viet
+                - paragraph [ref=e387]: Tầng 3, số 2, Ngõ 10, Nguyễn Văn Huyên, Cầu Giấy, Hà Nội
+            - generic [ref=e389]:
+              - link "customer-form-image" [ref=e390] [cursor=pointer]:
+                - /url: fast-24h-cua-hang-tien-ich-phuc-vu-moi-nhu-cau-khach-hang
+                - img "customer-form-image" [ref=e391] [cursor=pointer]
+              - generic [ref=e392]:
+                - heading "FAST 24H – Cửa hàng tiện ích phục vụ mọi nhu cầu khách hàng" [level=4] [ref=e393] [cursor=pointer]:
+                  - link "FAST 24H – Cửa hàng tiện ích phục vụ mọi nhu cầu khách hàng" [ref=e394] [cursor=pointer]:
+                    - /url: /fast-24h-cua-hang-tien-ich-phuc-vu-moi-nhu-cau-khach-hang
+                - paragraph [ref=e395]: 93 Nguyễn Khuyến , Đống Đa , Hà Nội
+            - generic [ref=e397]:
+              - link "customer-form-image" [ref=e398] [cursor=pointer]:
+                - /url: kim-ngan-store-dong-thap
+                - img "customer-form-image" [ref=e399] [cursor=pointer]
+              - generic [ref=e400]:
+                - heading "Kim Ngân Store - Thiên đường thời trang dành cho phái đẹp tại Đồng Tháp" [level=4] [ref=e401] [cursor=pointer]:
+                  - link "Kim Ngân Store - Thiên đường thời trang dành cho phái đẹp tại Đồng Tháp" [ref=e402] [cursor=pointer]:
+                    - /url: /kim-ngan-store-dong-thap
+                - paragraph [ref=e403]: Số 39 Nguyễn Sinh Sắc, Tân Phú Đông, TP Sa Đéc, tỉnh Đồng Tháp
+          - link "Tất cả khách hàng" [ref=e405] [cursor=pointer]:
+            - /url: https://www.kiotviet.vn/khach-hang/
+        - generic [ref=e407]:
+          - heading "Trải nghiệm ứng dụng KiotViet trên Google Play & App Store" [level=3] [ref=e409]:
+            - generic [ref=e410]: Trải nghiệm ứng dụng
+            - text: KiotViet trên
+            - text: Google Play & App Store
+          - generic [ref=e412]:
+            - generic [ref=e413] [cursor=pointer]:
+              - img "app-form-image" [ref=e415] [cursor=pointer]
+              - generic [ref=e416] [cursor=pointer]:
+                - heading "KiotViet" [level=4] [ref=e417] [cursor=pointer]
+                - generic [ref=e418] [cursor=pointer]: 10.000+ lượt tải
+            - generic [ref=e419] [cursor=pointer]:
+              - img "app-form-image" [ref=e421] [cursor=pointer]
+              - generic [ref=e422] [cursor=pointer]:
+                - heading "KiotViet Quản lý Nhà hàng" [level=4] [ref=e423] [cursor=pointer]
+                - generic [ref=e424] [cursor=pointer]: 10.000+ lượt tải
+            - generic [ref=e425] [cursor=pointer]:
+              - img "app-form-image" [ref=e427] [cursor=pointer]
+              - generic [ref=e428] [cursor=pointer]:
+                - heading "KiotViet Nhân viên Nhà hàng" [level=4] [ref=e429] [cursor=pointer]
+                - generic [ref=e430] [cursor=pointer]: 10.000+ lượt tải
+            - generic [ref=e431] [cursor=pointer]:
+              - img "app-form-image" [ref=e433] [cursor=pointer]
+              - generic [ref=e434] [cursor=pointer]:
+                - heading "KiotViet Salon" [level=4] [ref=e435] [cursor=pointer]
+                - generic [ref=e436] [cursor=pointer]: 10.000+ lượt tải
+            - generic [ref=e437] [cursor=pointer]:
+              - img "app-form-image" [ref=e439] [cursor=pointer]
+              - generic [ref=e440] [cursor=pointer]:
+                - heading "KiotViet Hotel" [level=4] [ref=e441] [cursor=pointer]
+                - generic [ref=e442] [cursor=pointer]: 10.000+ lượt tải
+          - generic [ref=e443]:
+            - generic [ref=e444]:
+              - generic:
+                - img "appstore-image-detail"
+              - generic [ref=e445]:
+                - paragraph [ref=e446]: Không còn lo lắng thất thoát dữ liệu, phần mềm KiotViet giúp tôi quản lý bán hàng chặt chẽ hơn.
+                - paragraph [ref=e447]: Chivavo thời trang đẳng cấp
+                - paragraph [ref=e448]:
+                  - img "star-appstore-rating" [ref=e449]
+            - generic [ref=e450]:
+              - generic:
+                - img "appstore-image-detail"
+              - generic [ref=e451]:
+                - paragraph [ref=e452]: Không ngờ app lại đơn giản và phù hợp với mình đến vậy. Duyên tiền định chăng :)))
+                - paragraph [ref=e453]: Việt Pet Garden-688
+                - paragraph [ref=e454]:
+                  - img "star-appstore-rating" [ref=e455]
+            - generic [ref=e456]:
+              - generic:
+                - img "appstore-image-detail"
+              - generic [ref=e457]:
+                - paragraph [ref=e458]: Dễ sử dụng quá, order thanh toán nhanh gọn, thực sự thuận tiện mọi người ạ.
+                - paragraph [ref=e459]: Cafe Vitamin Hà Nội
+                - paragraph [ref=e460]:
+                  - img "star-appstore-rating" [ref=e461]
+        - generic [ref=e463]:
+          - heading "Tin tức nổi bật" [level=3] [ref=e465]
+          - generic [ref=e467]:
+            - generic [ref=e469]:
+              - generic [ref=e470]:
+                - link "news-list-image" [ref=e471] [cursor=pointer]:
+                  - /url: kiotviet-mien-phi-hoa-don-dien-tu-chu-ky-so
+                  - img "news-list-image" [ref=e472] [cursor=pointer]
+                - generic [ref=e473]:
+                  - heading "Thông báo của KiotViet về việc miễn phí hóa đơn điện tử và chữ ký số" [level=4] [ref=e474] [cursor=pointer]:
+                    - link "Thông báo của KiotViet về việc miễn phí hóa đơn điện tử và chữ ký số" [ref=e475] [cursor=pointer]:
+                      - /url: kiotviet-mien-phi-hoa-don-dien-tu-chu-ky-so
+                  - paragraph [ref=e476]: Quý Khách hàng thân mến,Trong bối cảnh Nghị định 70/2025/NĐ-CP có hiệu lực từ ngày 01/06/2025, với mong…
+                  - generic [ref=e477]:
+                    - paragraph [ref=e478]: 14/5/2025 17:43:55
+                    - link "Xem thêm" [ref=e479] [cursor=pointer]:
+                      - /url: kiotviet-mien-phi-hoa-don-dien-tu-chu-ky-so
+                      - text: Xem thêm
+              - generic [ref=e481]:
+                - link "news-list-image" [ref=e482] [cursor=pointer]:
+                  - /url: kiotqr-dat-top-10-san-pham-dich-vu-tin-dung-2024-nhom-nganh-san-pham-dich-vu-cong-nghe
+                  - img "news-list-image" [ref=e483] [cursor=pointer]
+                - generic [ref=e484]:
+                  - heading "KIOTQR đạt TOP 10 sản phẩm & dịch vụ tin dùng 2024 - Nhóm ngành sản phẩm, dịch vụ công nghệ" [level=4] [ref=e485] [cursor=pointer]:
+                    - link "KIOTQR đạt TOP 10 sản phẩm & dịch vụ tin dùng 2024 - Nhóm ngành sản phẩm, dịch vụ công nghệ" [ref=e486] [cursor=pointer]:
+                      - /url: kiotqr-dat-top-10-san-pham-dich-vu-tin-dung-2024-nhom-nganh-san-pham-dich-vu-cong-nghe
+                  - paragraph [ref=e487]: Ngày 20/12 vừa qua, tại chương trình Tin Dùng Việt Nam 2024 do Tạp chí Kinh tế Việt…
+                  - generic [ref=e488]:
+                    - paragraph [ref=e489]: 28/12/2024 0:16:51
+                    - link "Xem thêm" [ref=e490] [cursor=pointer]:
+                      - /url: kiotqr-dat-top-10-san-pham-dich-vu-tin-dung-2024-nhom-nganh-san-pham-dich-vu-cong-nghe
+                      - text: Xem thêm
+            - generic [ref=e492]:
+              - generic [ref=e493]:
+                - link "news-list-image" [ref=e494] [cursor=pointer]:
+                  - /url: chu-tai-khoan-vietin-bank-da-nhan-duoc-thong-bao-thanh-toan-qr-tren-kiot-viet
+                  - img "news-list-image" [ref=e495] [cursor=pointer]
+                - heading "Chủ tài khoản Vietinbank đã được nhận thông báo thanh toán QR trên KiotViet" [level=4] [ref=e497] [cursor=pointer]:
+                  - link "Chủ tài khoản Vietinbank đã được nhận thông báo thanh toán QR trên KiotViet" [ref=e498] [cursor=pointer]:
+                    - /url: chu-tai-khoan-vietin-bank-da-nhan-duoc-thong-bao-thanh-toan-qr-tren-kiot-viet
+              - generic [ref=e499]:
+                - link "news-list-image" [ref=e500] [cursor=pointer]:
+                  - /url: tich-hop-giai-phap-nhan-thong-bao-bien-dong-tai-khoan-vietcombank-ngay-tren-kiotviet
+                  - img "news-list-image" [ref=e501] [cursor=pointer]
+                - heading "Tích hợp giải pháp nhận thông báo biến động tài khoản Vietcombank ngay trên KiotViet" [level=4] [ref=e503] [cursor=pointer]:
+                  - link "Tích hợp giải pháp nhận thông báo biến động tài khoản Vietcombank ngay trên KiotViet" [ref=e504] [cursor=pointer]:
+                    - /url: tich-hop-giai-phap-nhan-thong-bao-bien-dong-tai-khoan-vietcombank-ngay-tren-kiotviet
+              - generic [ref=e505]:
+                - link "news-list-image" [ref=e506] [cursor=pointer]:
+                  - /url: uu-dai-giam-gia-may-ban-hang-cam-ung-hai-man-hinh-khi-mua-phan-mem-kiotviet
+                  - img "news-list-image" [ref=e507] [cursor=pointer]
+                - heading "Giảm ngay 5.750.000đ cho Máy bán hàng cảm ứng hai màn hình khi mua phần mềm KiotViet" [level=4] [ref=e509] [cursor=pointer]:
+                  - link "Giảm ngay 5.750.000đ cho Máy bán hàng cảm ứng hai màn hình khi mua phần mềm KiotViet" [ref=e510] [cursor=pointer]:
+                    - /url: uu-dai-giam-gia-may-ban-hang-cam-ung-hai-man-hinh-khi-mua-phan-mem-kiotviet
+              - generic [ref=e511]:
+                - link "news-list-image" [ref=e512] [cursor=pointer]:
+                  - /url: kiotviet-hop-tac-mbbank-giai-ngan-goi-vay-1-000-ty-tiep-suc-chu-ho-kinh-doanh-mua-tet
+                  - img "news-list-image" [ref=e513] [cursor=pointer]
+                - heading "KiotViet hợp tác MBBank giải ngân gói vay 1.000 tỷ tiếp sức chủ hộ kinh doanh mùa Tết" [level=4] [ref=e515] [cursor=pointer]:
+                  - link "KiotViet hợp tác MBBank giải ngân gói vay 1.000 tỷ tiếp sức chủ hộ kinh doanh mùa Tết" [ref=e516] [cursor=pointer]:
+                    - /url: kiotviet-hop-tac-mbbank-giai-ngan-goi-vay-1-000-ty-tiep-suc-chu-ho-kinh-doanh-mua-tet
+          - generic [ref=e517]:
+            - heading "Báo chí viết về KiotViet" [level=4] [ref=e519]
+            - list [ref=e521]:
+              - listitem [ref=e522]:
+                - link "logo-bao-chi" [ref=e523] [cursor=pointer]:
+                  - /url: https://vnexpress.net/kiotviet-goi-von-thanh-cong-45-trieu-usd-4350129.html
+                  - img "logo-bao-chi" [ref=e524] [cursor=pointer]
+              - listitem [ref=e525]:
+                - link "logo-bao-chi" [ref=e526] [cursor=pointer]:
+                  - /url: https://dantri.com.vn/kinh-doanh/quy-ngoai-rot-45-trieu-usd-vao-start-up-kiotviet-20210904073005428.htm
+                  - img "logo-bao-chi" [ref=e527] [cursor=pointer]
+              - listitem [ref=e528]:
+                - link "logo-bao-chi" [ref=e529] [cursor=pointer]:
+                  - /url: https://forbes.vn/hanh-trinh-tu-nuoc-kieu-sang-nuoc-dai-cua-can-ki-lan-kiotviet
+                  - img "logo-bao-chi" [ref=e530] [cursor=pointer]
+              - listitem [ref=e531]:
+                - link "logo-bao-chi" [ref=e532] [cursor=pointer]:
+                  - /url: https://tuoitre.vn/startup-phan-mem-quan-ly-ban-hang-viet-nam-nhan-dau-tu-45-trieu-usd-giua-dai-dich-20210902144749398.htm
+                  - img "logo-bao-chi" [ref=e533] [cursor=pointer]
+              - listitem [ref=e534]:
+                - link "logo-bao-chi" [ref=e535] [cursor=pointer]:
+                  - /url: https://vneconomy.vn/start-up-viet-loi-nguoc-dong-goi-von-trieu-usd.htm
+                  - img "logo-bao-chi" [ref=e536] [cursor=pointer]
+              - listitem [ref=e537]:
+                - link "logo-bao-chi" [ref=e538] [cursor=pointer]:
+                  - /url: https://cafef.vn/kkr-dan-dau-khoan-dau-tu-hon-1000-ty-dong-vao-kiotviet-20210902190002025.chn
+                  - img "logo-bao-chi" [ref=e539] [cursor=pointer]
+      - generic [ref=e541]:
+        - generic [ref=e542]:
+          - heading "Hãy để KiotViet đồng hành kinh doanh cùng bạn" [level=3] [ref=e543]
+          - button "Dùng thử miễn phí" [ref=e544] [cursor=pointer]
+        - generic [ref=e545]:
+          - generic [ref=e547]:
+            - heading "Hotline" [level=4] [ref=e548]:
+              - generic [ref=e552]: Hotline
+            - generic [ref=e553]:
+              - paragraph [ref=e554]:
+                - generic [ref=e555]: "Tư vấn bán hàng:"
+                - link "1800 6162" [ref=e556] [cursor=pointer]:
+                  - /url: tel:1800 6162
+                - generic [ref=e557]: "Chăm sóc khách hàng:"
+                - link "1900 6522" [ref=e558] [cursor=pointer]:
+                  - /url: tel:1900 6522
+              - text: Hoạt động 365 ngày/năm từ 7:00 đến 22:00 kể cả ngày nghỉ lễ, tết.
+          - generic [ref=e560]:
+            - heading "KiotViet Fanpage" [level=4] [ref=e561]:
+              - link "KiotViet Fanpage" [ref=e565] [cursor=pointer]:
+                - /url: https://www.facebook.com/PhanmembanhangKiotViet/
+            - generic [ref=e566]: Luôn trả lời các thông tin nhanh nhất thông qua các phản hồi trên Facebook.
+          - generic [ref=e568]:
+            - heading "Kênh hỗ trợ Youtube" [level=4] [ref=e569]:
+              - link "Kênh hỗ trợ Youtube" [ref=e573] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UC7rnmP-i3aWPSLEgcT338vA
+            - generic [ref=e574]: Luôn cập nhật các kiến thức sử dụng phần mềm tức thời, trực quan giúp người dùng sử dụng được KiotViet dễ dàng và hiệu quả nhất.
+          - generic [ref=e576]:
+            - heading "Chat trên web & mobile" [level=4] [ref=e577]:
+              - generic [ref=e581]: Chat trên web & mobile
+            - generic [ref=e582]: Luôn có người trực chat để trả lời câu hỏi của các bạn nhanh và hiệu quả nhất suốt 365 ngày/năm.
+    - contentinfo [ref=e583]:
+      - generic [ref=e584]:
+        - generic [ref=e585]:
+          - generic [ref=e586]:
+            - link "Phần mềm quản lý bán hàng KiotViet" [ref=e587] [cursor=pointer]:
+              - /url: /
+              - img "Phần mềm quản lý bán hàng KiotViet" [ref=e588] [cursor=pointer]
+            - paragraph [ref=e589]: Công ty Cổ phần Công nghệ KiotViet
+            - paragraph [ref=e590]: "Hotline: 024 6660 2670"
+            - paragraph [ref=e591]: "Trụ sở chính: Tầng 6-7, số 1B Yết Kiêu, phường Cửa Nam, thành phố Hà Nội, Việt Nam"
+          - generic [ref=e592]:
+            - generic [ref=e593]:
+              - heading "Tư vấn bán hàng" [level=4] [ref=e594]
+              - heading "1800 6162" [level=4] [ref=e595]:
+                - link "1800 6162" [ref=e596] [cursor=pointer]:
+                  - /url: tel:1800 6162
+            - generic [ref=e597]:
+              - heading "Chăm sóc khách hàng" [level=4] [ref=e598]
+              - heading "1900 6522" [level=4] [ref=e599]:
+                - link "1900 6522" [ref=e600] [cursor=pointer]:
+                  - /url: tel:1900 6522
+            - list [ref=e601]:
+              - listitem [ref=e602]:
+                - 'link "Email: hotro@kiotviet.com" [ref=e603] [cursor=pointer]':
+                  - /url: mailto:hotro@kiotviet.com
+                  - text: "Email:"
+                  - generic [ref=e604] [cursor=pointer]: hotro@kiotviet.com
+          - generic [ref=e605]:
+            - heading "Doanh nghiệp" [level=4] [ref=e606]
+            - complementary [ref=e607]:
+              - list [ref=e611]:
+                - listitem [ref=e612]:
+                  - link "Về KiotViet" [ref=e613] [cursor=pointer]:
+                    - /url: https://about.kiotviet.vn/ve-chung-toi/
+                - listitem [ref=e614]:
+                  - link "Khách hàng" [ref=e615] [cursor=pointer]:
+                    - /url: https://www.kiotviet.vn/khach-hang/
+                - listitem [ref=e616]:
+                  - link "Điều khoản & chính sách sử dụng" [ref=e617] [cursor=pointer]:
+                    - /url: https://www.kiotviet.vn/dieu-khoan-su-dung/
+                - listitem [ref=e618]:
+                  - link "Liên hệ" [ref=e619] [cursor=pointer]:
+                    - /url: https://kiotviet.vn/lien-he
+                - listitem [ref=e620]:
+                  - link "Tuyển dụng KiotViet" [ref=e621] [cursor=pointer]:
+                    - /url: https://about.kiotviet.vn/tuyen-dung/
+          - generic [ref=e622]:
+            - heading "Hỗ trợ" [level=4] [ref=e623]
+            - complementary [ref=e624]:
+              - list [ref=e628]:
+                - listitem [ref=e629]:
+                  - link "Video hướng dẫn sử dụng" [ref=e630] [cursor=pointer]:
+                    - /url: https://www.youtube.com/c/HDSDPhanmemKiotViet
+                - listitem [ref=e631]:
+                  - link "Câu hỏi thường gặp" [ref=e632] [cursor=pointer]:
+                    - /url: https://www.kiotviet.vn/ho-tro/#faqs
+                - listitem [ref=e633]:
+                  - link "Wiki KiotViet" [ref=e634] [cursor=pointer]:
+                    - /url: https://www.kiotviet.vn/wiki-ki-ot-viet/
+                - listitem [ref=e635]:
+                  - link "Hướng dẫn sử dụng" [ref=e636] [cursor=pointer]:
+                    - /url: https://www.kiotviet.vn/huong-dan-su-dung-kiotviet/
+                - listitem [ref=e637]:
+                  - link "Blog" [ref=e638] [cursor=pointer]:
+                    - /url: https://www.kiotviet.vn/blog/
+                - listitem [ref=e639]:
+                  - link "Thông tin cập nhật Kiotviet" [ref=e640] [cursor=pointer]:
+                    - /url: https://www.kiotviet.vn/noi-dung-cap-nhat-sap-toi/
+        - generic [ref=e642]:
+          - heading "Ngành hàng" [level=4] [ref=e643]
+          - generic [ref=e645]:
+            - generic [ref=e646]:
+              - generic [ref=e647]: Bán buôn, bán lẻ
+              - list:
+                - listitem [ref=e648]:
+                  - link "Thời trang" [ref=e649] [cursor=pointer]:
+                    - /url: /phan-mem-ban-hang-thoi-trang
+                - listitem [ref=e650]:
+                  - link "Tạp hóa & Siêu thị" [ref=e651] [cursor=pointer]:
+                    - /url: /phan-mem-ban-hang-tap-hoa
+                - listitem [ref=e652]:
+                  - link "Điện thoại & Điện máy" [ref=e653] [cursor=pointer]:
+                    - /url: /dien-thoai-dien-may
+                - listitem [ref=e654]:
+                  - link "Mỹ phẩm" [ref=e655] [cursor=pointer]:
+                    - /url: /phan-mem-quan-ly-ban-hang-my-pham
+                - listitem [ref=e656]:
+                  - link "Vật liệu xây dựng" [ref=e657] [cursor=pointer]:
+                    - /url: /vat-lieu-xay-dung
+                - listitem [ref=e658]:
+                  - link "Nông sản & Thực phẩm" [ref=e659] [cursor=pointer]:
+                    - /url: /nong-san-thuc-pham
+                - listitem [ref=e660]:
+                  - link "Nhà thuốc" [ref=e661] [cursor=pointer]:
+                    - /url: /phan-mem-quan-ly-nha-thuoc
+                - listitem [ref=e662]:
+                  - link "Xe, Máy móc" [ref=e663] [cursor=pointer]:
+                    - /url: /linh-kien-may-moc
+                - listitem [ref=e664]:
+                  - link "Mẹ & Bé" [ref=e665] [cursor=pointer]:
+                    - /url: /me-be
+                - listitem [ref=e666]:
+                  - link "Nội thất & Gia dụng" [ref=e667] [cursor=pointer]:
+                    - /url: /noi-that
+                - listitem [ref=e668]:
+                  - link "Sách & Văn phòng phẩm" [ref=e669] [cursor=pointer]:
+                    - /url: /sach-van-phong-pham
+                - listitem [ref=e670]:
+                  - link "Hoa & Quà tặng" [ref=e671] [cursor=pointer]:
+                    - /url: /hoa-qua-tang
+                - listitem [ref=e672]:
+                  - link "Sản xuất" [ref=e673] [cursor=pointer]:
+                    - /url: /san-xuat
+                - listitem [ref=e674]:
+                  - link "Khác" [ref=e675] [cursor=pointer]:
+                    - /url: /cua-hang-ban-buon-ban-le
+            - generic [ref=e677]:
+              - generic [ref=e678]: Ăn uống, giải trí
+              - list [ref=e679]:
+                - listitem [ref=e680]:
+                  - link "Nhà hàng" [ref=e681] [cursor=pointer]:
+                    - /url: https://www.kiotviet.vn/quan-ly-nha-hang
+                - listitem [ref=e682]:
+                  - link "Quán ăn" [ref=e683] [cursor=pointer]:
+                    - /url: https://www.kiotviet.vn/quan-ly-quan-an
+                - listitem [ref=e684]:
+                  - link "Cafe, Trà sữa" [ref=e685] [cursor=pointer]:
+                    - /url: https://www.kiotviet.vn/quan-ly-cafe-tra-sua
+                - listitem [ref=e686]:
+                  - link "Karaoke, Bida" [ref=e687] [cursor=pointer]:
+                    - /url: https://www.kiotviet.vn/quan-ly-karaoke-bida
+                - listitem [ref=e688]:
+                  - link "Bar, Pub & Club" [ref=e689] [cursor=pointer]:
+                    - /url: https://www.kiotviet.vn/quan-ly-bar-pub-club
+                - listitem [ref=e690]:
+                  - link "Căng tin & Trạm dừng nghỉ" [ref=e691] [cursor=pointer]:
+                    - /url: https://www.kiotviet.vn/ban-hang-cang-tin-tram-dung-nghi
+            - generic [ref=e693]:
+              - generic [ref=e694]: Lưu trú, làm đẹp
+              - list [ref=e695]:
+                - listitem [ref=e696]:
+                  - link "Beauty Spa & Massage" [ref=e697] [cursor=pointer]:
+                    - /url: https://www.kiotviet.vn/quan-ly-beauty-spa-massage
+                - listitem [ref=e698]:
+                  - link "Hair Salon & Nails" [ref=e699] [cursor=pointer]:
+                    - /url: https://www.kiotviet.vn/quan-ly-hair-salon-nails
+                - listitem [ref=e700]:
+                  - link "Khách sạn & Nhà nghỉ" [ref=e701] [cursor=pointer]:
+                    - /url: https://www.kiotviet.vn/quan-ly-khach-san-nha-nghi
+                - listitem [ref=e702]:
+                  - link "Homestay & Villa, Resort" [ref=e703] [cursor=pointer]:
+                    - /url: https://www.kiotviet.vn/quan-ly-homestay-villa
+                - listitem [ref=e704]:
+                  - link "Fitness & Yoga" [ref=e705] [cursor=pointer]:
+                    - /url: https://www.kiotviet.vn/quan-ly-fitness-yoga
+                - listitem [ref=e706]:
+                  - link "Phòng khám" [ref=e707] [cursor=pointer]:
+                    - /url: https://www.kiotviet.vn/quan-ly-phong-kham
+        - generic [ref=e708]:
+          - generic [ref=e709]:
+            - heading "Địa chỉ Miền Bắc" [level=4] [ref=e710]
+            - generic [ref=e714]:
+              - generic [ref=e715]:
+                - paragraph [ref=e716]: Hà Nội
+                - paragraph [ref=e717]: Số 1B Yết Kiêu, phường Cửa Nam, thành phố Hà Nội
+              - generic [ref=e718]:
+                - paragraph [ref=e719]: Hải Phòng
+                - paragraph [ref=e720]: 176A Tôn Đức Thắng, phường An Biên, thành phố Hải Phòng
+                - paragraph [ref=e721]:
+                  - text: "Hotline:"
+                  - link "02 256 509 126" [ref=e722] [cursor=pointer]:
+                    - /url: tel:02 256 509 126
+              - generic [ref=e723]:
+                - paragraph [ref=e724]: Quảng Ninh
+                - paragraph [ref=e725]: Số 19 Cao Xanh, phường Cao Xanh, tỉnh Quảng Ninh
+                - paragraph [ref=e726]:
+                  - text: "Hotline:"
+                  - link "0203 629 6060" [ref=e727] [cursor=pointer]:
+                    - /url: tel:0203 629 6060
+              - generic [ref=e728]:
+                - paragraph [ref=e729]: Thái Nguyên
+                - paragraph [ref=e730]: Số 111 Lương Ngọc Quyến, phường Phan Đình Phùng, tỉnh Thái Nguyên
+                - paragraph [ref=e731]:
+                  - text: "Hotline:"
+                  - link "0866 482 168" [ref=e732] [cursor=pointer]:
+                    - /url: tel:0866 482 168
+              - generic [ref=e733]:
+                - paragraph [ref=e734]: Nam Định
+                - paragraph [ref=e735]: Số 110 Trần Huy Liệu, phường Trường Thi, tỉnh Ninh Bình
+                - paragraph [ref=e736]:
+                  - text: "Hotline:"
+                  - link "0981 374 268" [ref=e737] [cursor=pointer]:
+                    - /url: tel:0981 374 268
+              - generic [ref=e738]:
+                - paragraph [ref=e739]: Phú Thọ
+                - paragraph [ref=e740]: Số 514 Châu Phong, phường Việt Trì, tỉnh Phú Thọ
+                - paragraph [ref=e741]:
+                  - text: "Hotline:"
+                  - link "02 102 486 699" [ref=e742] [cursor=pointer]:
+                    - /url: tel:02 102 486 699
+              - generic [ref=e743]:
+                - paragraph [ref=e744]: Hải Dương
+                - paragraph [ref=e745]: 32 Hồng Quang, phường Hải Dương, thành phố Hải Phòng
+                - paragraph [ref=e746]:
+                  - text: "Hotline:"
+                  - link "0220 2601 666" [ref=e747] [cursor=pointer]:
+                    - /url: tel:0220 2601 666
+              - generic [ref=e748]:
+                - paragraph [ref=e749]: Bắc Ninh
+                - paragraph [ref=e750]: Số 56 Nguyễn Gia Thiều, phường Kinh Bắc, tỉnh Bắc Ninh
+                - paragraph [ref=e751]:
+                  - text: "Hotline:"
+                  - link "0222 222 6688" [ref=e752] [cursor=pointer]:
+                    - /url: tel:0222 222 6688
+              - generic [ref=e753]:
+                - paragraph [ref=e754]: Vĩnh Phúc
+                - paragraph [ref=e755]: Số 125 Nguyễn Văn Linh, phường Vĩnh Phúc, tỉnh Phú Thọ
+                - paragraph [ref=e756]:
+                  - text: "Hotline:"
+                  - link "0211 62 82 666" [ref=e757] [cursor=pointer]:
+                    - /url: tel:0211 62 82 666
+          - generic [ref=e758]:
+            - heading "Địa chỉ Miền Trung" [level=4] [ref=e759]
+            - generic [ref=e763]:
+              - generic [ref=e764]:
+                - paragraph [ref=e765]: Đà Nẵng
+                - paragraph [ref=e766]: 110 Đống Đa, phường Hải Châu, thành phố Đà Nẵng
+                - paragraph [ref=e767]:
+                  - text: "Hotline:"
+                  - link "02 366 523 966" [ref=e768] [cursor=pointer]:
+                    - /url: tel:02 366 523 966
+              - generic [ref=e769]:
+                - paragraph [ref=e770]: Khánh Hòa
+                - paragraph [ref=e771]: 1053 đường 2/4, phường Nha Trang, tỉnh Khánh Hòa
+                - paragraph [ref=e772]:
+                  - text: "Hotline:"
+                  - link "0901 903 866" [ref=e773] [cursor=pointer]:
+                    - /url: tel:0901 903 866
+              - generic [ref=e774]:
+                - paragraph [ref=e775]: Nghệ An
+                - paragraph [ref=e776]: Số 28 Nguyễn Sỹ Sách, phường Thành Vinh, tỉnh Nghệ An
+                - paragraph [ref=e777]:
+                  - text: "Hotline:"
+                  - link "02 386 668 168" [ref=e778] [cursor=pointer]:
+                    - /url: tel:02 386 668 168
+              - generic [ref=e779]:
+                - paragraph [ref=e780]: Đắk Lắk
+                - paragraph [ref=e781]: 72 Ngô Quyền, phường Buôn Ma Thuột, tỉnh Đắk Lắk
+                - paragraph [ref=e782]:
+                  - text: "Hotline:"
+                  - link "0943 748 181" [ref=e783] [cursor=pointer]:
+                    - /url: tel:0943 748 181
+              - generic [ref=e784]:
+                - paragraph [ref=e785]: Thanh Hóa
+                - paragraph [ref=e786]: Lô 17 LK1 KDC An Phú Hưng, phường Hạc Thành, tỉnh Thanh Hóa
+                - paragraph [ref=e787]:
+                  - text: "Hotline:"
+                  - link "02 376 546 688" [ref=e788] [cursor=pointer]:
+                    - /url: tel:02 376 546 688
+              - generic [ref=e789]:
+                - paragraph [ref=e790]: Thừa Thiên Huế
+                - paragraph [ref=e791]: 138 Trường Chinh, phường An Cựu, thành phố Huế
+                - paragraph [ref=e792]:
+                  - text: "Hotline:"
+                  - link "02 346 542 468" [ref=e793] [cursor=pointer]:
+                    - /url: tel:02 346 542 468
+              - generic [ref=e794]:
+                - paragraph [ref=e795]: Bình Định
+                - paragraph [ref=e796]: 136 Chương Dương, phường Quy Nhơn Nam, tỉnh Gia Lai
+                - paragraph [ref=e797]:
+                  - text: "Hotline:"
+                  - link "02 566 527 662" [ref=e798] [cursor=pointer]:
+                    - /url: tel:02 566 527 662
+              - generic [ref=e799]:
+                - paragraph [ref=e800]: Gia Lai
+                - paragraph [ref=e801]: 44A Phù Đổng, phường Pleiku, tỉnh Gia Lai
+                - paragraph [ref=e802]:
+                  - text: "Hotline:"
+                  - link "0869 561 268" [ref=e803] [cursor=pointer]:
+                    - /url: tel:0869 561 268
+              - generic [ref=e804]:
+                - paragraph [ref=e805]: Lâm Đồng
+                - paragraph [ref=e806]: Số 187 Phù Đổng Thiên Vương, phường Lâm Viên - Đà Lạt, tỉnh Lâm Đồng
+                - paragraph [ref=e807]:
+                  - text: "Hotline:"
+                  - link "0868 435 268" [ref=e808] [cursor=pointer]:
+                    - /url: tel:0868 435 268
+              - generic [ref=e809]:
+                - paragraph [ref=e810]: Bình Thuận
+                - paragraph [ref=e811]: J46 Tôn Đức Thắng, phường Hàm Thắng, tỉnh Lâm Đồng
+                - paragraph [ref=e812]:
+                  - text: "Hotline:"
+                  - link "0252 6299 299" [ref=e813] [cursor=pointer]:
+                    - /url: tel:0252 6299 299
+              - generic [ref=e814]:
+                - paragraph [ref=e815]: Quảng Ngãi
+                - paragraph [ref=e816]: Số 165 Lê Lợi, phường Cẩm Thành, tỉnh Quảng Ngãi
+                - paragraph [ref=e817]:
+                  - text: "Hotline:"
+                  - link "02 556 538 899" [ref=e818] [cursor=pointer]:
+                    - /url: tel:02 556 538 899
+          - generic [ref=e819]:
+            - heading "Địa chỉ Miền Nam" [level=4] [ref=e820]
+            - generic [ref=e824]:
+              - generic [ref=e825]:
+                - paragraph [ref=e826]: TP.HCM
+                - paragraph [ref=e827]: Tầng 6 khu B-C, Tòa nhà Waseco, Số 10 Phổ Quang, phường Tân Sơn Hòa, thành phố Hồ Chí Minh
+                - paragraph [ref=e828]:
+                  - text: "Hotline:"
+                  - link "0286 2533 433" [ref=e829] [cursor=pointer]:
+                    - /url: tel:0286 2533 433
+              - generic [ref=e830]:
+                - paragraph [ref=e831]: Cần Thơ
+                - paragraph [ref=e832]: Số 199 Võ Văn Kiệt, phường Bình Thủy, thành phố Cần Thơ
+                - paragraph [ref=e833]:
+                  - text: "Hotline:"
+                  - link "0292 6502 777" [ref=e834] [cursor=pointer]:
+                    - /url: tel:0292 6502 777
+              - generic [ref=e835]:
+                - paragraph [ref=e836]: Vũng Tàu
+                - paragraph [ref=e837]: 492A đường 30/4, phường Rạch Dừa, thành phố Hồ Chí Minh
+                - paragraph [ref=e838]:
+                  - text: "Hotline:"
+                  - link "02 542 210 888" [ref=e839] [cursor=pointer]:
+                    - /url: tel:02 542 210 888
+              - generic [ref=e840]:
+                - paragraph [ref=e841]: Kiên Giang
+                - paragraph [ref=e842]: L2 C11 Phan Thị Ràng, phường Rạch Giá, tỉnh An Giang
+                - paragraph [ref=e843]:
+                  - text: "Hotline:"
+                  - link "02972 200 168" [ref=e844] [cursor=pointer]:
+                    - /url: tel:02972 200 168
+              - generic [ref=e845]:
+                - paragraph [ref=e846]: Đồng Tháp
+                - paragraph [ref=e847]: Số 05 Đặng Văn Bình, phường Cao Lãnh, tỉnh Đồng Tháp
+                - paragraph [ref=e848]:
+                  - text: "Hotline:"
+                  - link "0277 6277 666" [ref=e849] [cursor=pointer]:
+                    - /url: tel:0277 6277 666
+          - generic [ref=e850]:
+            - heading "Tổng đài hỗ trợ khách hàng ở nước ngoài" [level=4] [ref=e851]
+            - generic [ref=e855]:
+              - generic [ref=e856]:
+                - paragraph [ref=e857]: Việt Nam
+                - paragraph [ref=e858]:
+                  - text: "Hotline:"
+                  - link "(+84) 24 3990 4991" [ref=e859] [cursor=pointer]:
+                    - /url: tel:0286 2533 433
+              - generic [ref=e860]:
+                - paragraph [ref=e861]: Nhật Bản
+                - paragraph [ref=e862]:
+                  - text: "Hotline:"
+                  - link "(+81) 50 5050 8167" [ref=e863] [cursor=pointer]:
+                    - /url: tel:0292 6502 777
+              - generic [ref=e864]:
+                - paragraph [ref=e865]: Lào
+                - paragraph [ref=e866]:
+                  - text: "Hotline:"
+                  - link "(+856) 20 9991 5707" [ref=e867] [cursor=pointer]:
+                    - /url: tel:02 542 210 888
+              - generic [ref=e868]:
+                - paragraph [ref=e869]: Campuchia
+                - paragraph [ref=e870]:
+                  - text: "Hotline:"
+                  - link "(+855) 23 962 610" [ref=e871] [cursor=pointer]:
+                    - /url: tel:02972 200 168
+      - generic [ref=e874]:
+        - paragraph [ref=e875]:
+          - generic:
+            - link "DMCA":
+              - /url: https://www.dmca.com/Protection/Status.aspx?ID=e9fda70b-1262-49c8-9689-028aa2d238c5&refurl=https://www.kiotviet.vn/
+              - img "DMCA"
+          - generic [ref=e876]: 2025 KiotViet™
+          - text: © Copyright 2010-2025 KiotViet Corporation. All Right Reserved
+        - list [ref=e877]:
+          - listitem [ref=e878]:
+            - link "Facebook" [ref=e879] [cursor=pointer]:
+              - /url: https://facebook.com/PhanmembanhangKiotViet
+          - listitem [ref=e881]:
+            - link "Twitter" [ref=e882] [cursor=pointer]:
+              - /url: https://twitter.com/KiotViet
+          - listitem [ref=e884]:
+            - link "Youtube" [ref=e885] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCDLpNUxdUx7E81MV4K7ocxA
+  - iframe [ref=e888]:
+    - generic [active]:
+      - generic:
+        - text: 
+        - button [ref=f1e1] [cursor=pointer]
+```

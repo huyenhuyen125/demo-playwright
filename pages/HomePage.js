@@ -1,11 +1,12 @@
-export class HomePage {
-   constructor(page) {
+import { BasePage } from "./BasePage";
+
+export class HomePage extends BasePage {
+    constructor(page) {
+        super(page);
         this.page = page;
-        this.btnRegister = page.locator("//li[@class='nav-item header-login login']");
 
     }
 
-    
     async goToHomePage(url) {
         await this.page.goto(url);
     }

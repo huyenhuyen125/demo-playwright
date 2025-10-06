@@ -1,0 +1,1 @@
+[2025-10-06 13:19:47] INFO: verify items on the register screen

@@ -1,0 +1,4 @@
+[2025-10-06 13:59:25] INFO: create new page
+[2025-10-06 13:59:25] INFO: not input data and click button submit 
+[2025-10-06 13:59:31] INFO: Invalid phone number entered
+[2025-10-06 13:59:36] INFO: incorrect captcha entry

@@ -1,0 +1,2 @@
+[2025-10-06 14:25:59] INFO: create new page
+[2025-10-06 14:25:59] INFO: Verify kiotviet page

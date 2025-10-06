@@ -7,8 +7,8 @@ const logger = winston.createLogger({
     winston.format.printf(info => `[${info.timestamp}] ${info.level.toUpperCase()}: ${info.message}`)
   ),
   transports: [
-    new winston.transports.Console(), // in ra console
-    new winston.transports.File({ filename: 'logs/test.log', level: 'info' }) // ghi log vào file
+    new winston.transports.Console(), 
+    new winston.transports.File({ filename: 'logs/test.log', level: 'info' }) 
   ]
 });
 

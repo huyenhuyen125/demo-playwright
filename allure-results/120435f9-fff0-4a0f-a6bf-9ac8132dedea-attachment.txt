@@ -1,0 +1,5 @@
+[2025-10-06 14:24:14] INFO: create new page
+[2025-10-06 14:24:14] INFO: input to textbox
+[2025-10-06 14:24:20] INFO: select ToDropdown
+[2025-10-06 14:24:21] INFO: check to checkbox
+[2025-10-06 14:24:22] INFO: skip capcha = manual
